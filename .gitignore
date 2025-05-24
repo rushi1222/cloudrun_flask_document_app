@@ -88,3 +88,4 @@ docker-compose.yml
 # ✅ GitHub Copilot logs
 ~/.config/github-copilot/
 
+/test

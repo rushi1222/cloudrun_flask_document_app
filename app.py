@@ -137,7 +137,7 @@ def chat():
         *hist,
         {"role": "user", "content": text},
     ]
-
+    print("Chat history:", messages)
     assistant = llm.invoke(messages).content.strip()
     return jsonify({"assistant": assistant})
 
